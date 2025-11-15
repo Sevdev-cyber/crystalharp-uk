@@ -84,7 +84,7 @@ const CONFIG = {
   },
   pl: {
     lang: 'pl-PL',
-    siteOrigin: 'https://crystalharp.pl',
+    siteOrigin: 'https://krysztalowaharfa.pl',
     ogLocale: 'pl_PL',
     pageTitle: 'Harfy Kryształowe Polska – Sacred Forest® 432Hz',
     metaDescription:
@@ -120,7 +120,7 @@ const hrefLangLinks = [
   '<link rel="alternate" hreflang="en-gb" href="https://crystalharp.uk/">',
   '<link rel="alternate" hreflang="en-us" href="https://crystalharp.us/">',
   '<link rel="alternate" hreflang="en" href="https://crystalharp.eu/">',
-  '<link rel="alternate" hreflang="pl-pl" href="https://crystalharp.pl/">',
+  '<link rel="alternate" hreflang="pl-pl" href="https://krysztalowaharfa.pl/">',
   '<link rel="alternate" hreflang="x-default" href="https://crystalharp.eu/">',
 ].join('\n');
 
