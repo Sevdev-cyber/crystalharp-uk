@@ -156,6 +156,111 @@ function build() {
     html = html.split(token).join(value);
   }
 
+  // Polish-specific text translations for krysztalowaharfa.pl
+  if (REGION === 'pl') {
+    const plPairs = [
+      ['Go to Sacred Forest Shop', 'Przejdź do sklepu SacredForest.pl'],
+      ['Explore models', 'Zobacz modele'],
+      ['About Sacred Forest', 'O marce Sacred Forest'],
+      ['Crystal Harps born in the forest', 'Harfy kryształowe zrodzone w lesie'],
+      [
+        'Every Sacred Forest® crystal harp is handcrafted in Poland with pure quartz glass, perfectly tuned to its healing 432Hz frequency.',
+        'Każda harfa kryształowa Sacred Forest® powstaje ręcznie w Polsce z wysokiej jakości szkła kwarcowego, precyzyjnie strojonego do częstotliwości 432 Hz.',
+      ],
+      [
+        'We design our instruments to feel gentle, luminous and strong – just like the forests and oceans that inspire us.',
+        'Projektujemy nasze instrumenty tak, aby były delikatne, świetliste i jednocześnie mocne – podobnie jak lasy i oceany, które nas inspirują.',
+      ],
+      ['Collection', 'Kolekcja'],
+      ['Crystal Harp models', 'Modele harf kryształowych'],
+      [
+        'Choose between different tunings and tonalities – from oceanic Stardust C sharp to mystical E and grounding Earth Om C sharp.',
+        'Wybierz między różnymi strojeniami i charakterami brzmienia – od oceanicznej Stardust C# po mistyczne E i uziemiające Earth Om C#.',
+      ],
+      [
+        'All models are available worldwide from our main Sacred Forest store.',
+        'Wszystkie modele są dostępne w naszym głównym sklepie SacredForest.pl.',
+      ],
+      ['Sound Healing', 'Terapia dźwiękiem'],
+      ['Why 432Hz crystal harps?', 'Dlaczego harfy kryształowe 432 Hz?'],
+      ['Gentle, clear sound', 'Delikatne, przejrzyste brzmienie'],
+      [
+        'Crystal harps carry long, shimmering overtones that fill the room without being harsh to the ears.',
+        'Harfy kryształowe niosą długie, migoczące alikwoty, które wypełniają przestrzeń bez ostrości dla uszu.',
+      ],
+      ['Supports deep relaxation', 'Wspierają głęboki relaks'],
+      [
+        '432Hz tuning is loved by many practitioners for its calming, heart-centred character.',
+        'Strój 432 Hz jest ceniony przez wielu praktyków za swój uspokajający, „sercowy” charakter.',
+      ],
+      ['Made for therapists', 'Stworzone dla terapeutów'],
+      [
+        'Designed for sound healers, yoga teachers, energy workers and wellness studios that need reliable instruments.',
+        'Stworzone dla terapeutów dźwiękiem, nauczycieli jogi, pracowników energii i studiów wellness, które potrzebują niezawodnych instrumentów.',
+      ],
+      ['FAQ', 'FAQ'],
+      ['Crystal Harp – Questions & answers', 'Harfy kryształowe – pytania i odpowiedzi'],
+      ['What is a Crystal Harp?', 'Czym jest harfa kryształowa?'],
+      [
+        'A crystal harp is a musical instrument made from high-purity quartz glass tubes, tuned to precise pitches. When played with a special mallet, it creates long, singing tones similar to crystal bowls but arranged like a harp.',
+        'Harfa kryształowa to instrument muzyczny wykonany z wysokiej jakości szklanych rur kwarcowych, strojonych do precyzyjnych dźwięków. Grana specjalną pałeczką tworzy długie, śpiewne tony podobne do mis kryształowych, ułożone jednak jak struny harfy.',
+      ],
+      ['Do you ship to the United Kingdom?', 'Czy wysyłacie harfy kryształowe do Polski?'],
+      [
+        'Yes. Sacred Forest ships Crystal Harps safely from Poland to the UK and worldwide, using protective packaging and full insurance.',
+        'Tak. Sacred Forest wysyła harfy kryształowe z Polski, w wzmocnionych opakowaniach i z pełnym ubezpieczeniem przesyłki.',
+      ],
+      ['Do I need musical experience?', 'Czy potrzebuję doświadczenia muzycznego?'],
+      [
+        'No. Many of our clients are therapists and healers without classical music training. Simple intuitive playing already creates a beautiful sound field.',
+        'Nie. Wielu naszych klientów to terapeuci i uzdrawiacze bez klasycznego wykształcenia muzycznego. Prosta, intuicyjna gra już tworzy piękne pole dźwiękowe.',
+      ],
+      ['Where can I order?', 'Gdzie mogę zamówić?'],
+      [
+        'All orders are processed through our main shop on SacredForest.pl – this is where you can see prices, tuning options and availability.',
+        'Wszystkie zamówienia realizujemy przez nasz główny sklep SacredForest.pl – tam znajdziesz aktualne ceny, dostępne strojenia i informacje o dostępności.',
+      ],
+      ['How long does shipping to the UK take?', 'Ile trwa wysyłka na terenie Polski?'],
+      [
+        'Most Crystal Harps shipped from Poland to the UK arrive within a few working days, depending on the courier and your location. After dispatch you receive tracking details so you can follow the parcel.',
+        'Wysyłka harf kryształowych na terenie Polski zwykle zajmuje kilka dni roboczych, w zależności od firmy kurierskiej i miejscowości odbiorcy. Po nadaniu przesyłki otrzymasz numer śledzenia.',
+      ],
+      [
+        'Are customs or import fees included in the price?',
+        'Czy cło lub dodatkowe opłaty są wliczone w cenę?',
+      ],
+      [
+        'Depending on current UK regulations, local customs duties or VAT may apply. During checkout on SacredForest.pl you will see available shipping options, and the courier will inform you if any additional fees are due before delivery.',
+        'W zależności od aktualnych przepisów mogą pojawić się lokalne opłaty lub podatki. Podczas składania zamówienia na SacredForest.pl zobaczysz dostępne opcje wysyłki, a kurier poinformuje Cię, jeśli przed doręczeniem pojawią się dodatkowe opłaty.',
+      ],
+      [
+        'Can I use a Crystal Harp in group sessions?',
+        'Czy mogę używać harfy kryształowej podczas sesji grupowych?',
+      ],
+      [
+        'Yes. Crystal Harps are designed for individual sessions as well as group sound baths, yoga classes and retreats, where their clear tones can fill the room without being harsh.',
+        'Tak. Harfy kryształowe są stworzone zarówno do pracy indywidualnej, jak i do grupowych kąpieli dźwiękowych, zajęć jogi czy warsztatów, gdzie ich klarowne tony wypełniają przestrzeń bez ostrości.',
+      ],
+      ['How do I care for my Crystal Harp?', 'Jak dbać o harfę kryształową?'],
+      [
+        'Keep your instrument in a padded case or on a stable stand, avoid strong impacts and extreme temperatures, and clean the quartz tubes gently with a soft, dry cloth.',
+        'Przechowuj instrument w miękkim pokrowcu lub na stabilnym stojaku, unikaj silnych uderzeń i skrajnych temperatur, a rurki kwarcowe czyść delikatnie miękką, suchą ściereczką.',
+      ],
+      [
+        '© 2025 Sacred Forest® – Crystal Harps UK Microsite',
+        '© 2025 Sacred Forest® – Harfy Kryształowe Polska',
+      ],
+    ];
+
+    for (const [from, to] of plPairs) {
+      html = html.split(from).join(to);
+    }
+
+    // Localise button labels in product cards
+    html = html.split('View ').join('Zobacz ');
+    html = html.split(' on SacredForest.pl →').join(' na SacredForest.pl →');
+  }
+
   fs.writeFileSync(outPath, html, 'utf8');
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
