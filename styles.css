@@ -161,8 +161,7 @@ main {
 .card img {
   width: 100%;
   display: block;
-  height: 220px;
-  object-fit: cover;
+  height: auto;
 }
 
 .card-body {
