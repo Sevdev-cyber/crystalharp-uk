@@ -7,22 +7,23 @@ const CONFIG = {
   uk: {
     lang: 'en-GB',
     siteOrigin: 'https://crystalharp.uk',
+    utmSource: 'crystalharp.uk',
     ogLocale: 'en_GB',
     pageTitle: 'Crystal Harps UK – Sacred Forest® 432Hz Quartz Harps',
     metaDescription:
-      'Crystal Harps UK by Sacred Forest – handcrafted 432Hz quartz harps for sound healing, meditation and wellness. Discover Stardust C#, Mystic E, Celtic Moon D, Celestial Sun D and more, shipped safely to the United Kingdom.',
+      'Crystal Harps UK by Sacred Forest – handcrafted 432Hz quartz harps for meditation, sound baths and wellness. Discover Stardust C#, Mystic E, Celtic Moon D, Sun D and more, shipped safely to the United Kingdom.',
     ogDescription:
-      'Handcrafted 432Hz crystal harps for sound healing and meditation in the United Kingdom.',
+      'Handcrafted 432Hz crystal harps for meditation, sound baths and mindful sound practice in the United Kingdom.',
     websiteDescription:
-      'Handcrafted 432Hz Crystal Harps by Sacred Forest for sound healers and wellness practitioners in the United Kingdom.',
+      'Handcrafted 432Hz Crystal Harps by Sacred Forest for sound practitioners and wellness studios in the United Kingdom.',
     heroKicker: 'Crystal Harps · United Kingdom',
     heroTitle: 'Handcrafted 432Hz Crystal Harps',
     heroSub:
-      'Sacred Forest® creates premium crystal harps tuned to 432Hz – instruments for sound healers, therapists and seekers of deep inner peace in the United Kingdom and beyond.',
-    regionSectionKicker: 'For UK sound healers',
+      'Sacred Forest® creates premium crystal harps tuned to 432Hz – instruments for meditation, sound baths and mindful sound practice in the United Kingdom and beyond.',
+    regionSectionKicker: 'For UK sound practitioners',
     regionSectionHeading: 'Crystal harps for practitioners in the United Kingdom',
     regionSectionBody:
-      'This dedicated UK microsite helps sound healers, yoga teachers and wellness studios in London, Manchester, Edinburgh and across the United Kingdom discover Sacred Forest® crystal harps tuned to 432Hz. All instruments are shipped safely from Poland to the UK with insured delivery and careful packaging.',
+      'This dedicated UK microsite helps sound practitioners, yoga teachers and wellness studios in London, Manchester, Edinburgh and across the United Kingdom discover Sacred Forest® crystal harps tuned to 432Hz. All instruments are shipped safely from Poland to the UK with insured delivery and careful packaging.',
     faqShipQuestion: 'Do you ship to the United Kingdom?',
     faqShipAnswer:
       'Yes. Sacred Forest ships all Crystal Harps safely to the UK and worldwide using insured, reinforced packaging.',
@@ -33,48 +34,50 @@ const CONFIG = {
   us: {
     lang: 'en-US',
     siteOrigin: 'https://crystalharp.us',
+    utmSource: 'crystalharp.us',
     ogLocale: 'en_US',
     pageTitle: 'Crystal Harps USA – Sacred Forest® 432Hz Quartz Harps',
     metaDescription:
-      'Crystal Harps USA by Sacred Forest – handcrafted 432Hz quartz harps for sound healing, meditation and wellness. Discover Stardust C#, Mystic E, Celtic Moon D, Celestial Sun D and more, shipped safely to the United States.',
+      'Crystal Harps USA by Sacred Forest – handcrafted 432Hz quartz harps for meditation, sound baths and wellness. Discover Stardust C#, Mystic E, Celtic Moon D, Sun D and more, shipped safely to the United States.',
     ogDescription:
-      'Handcrafted 432Hz crystal harps for sound healing and meditation in the United States.',
+      'Handcrafted 432Hz crystal harps for meditation, sound baths and mindful sound practice in the United States.',
     websiteDescription:
-      'Handcrafted 432Hz Crystal Harps by Sacred Forest for sound healers and wellness practitioners in the United States.',
+      'Handcrafted 432Hz Crystal Harps by Sacred Forest for sound practitioners and wellness studios in the United States.',
     heroKicker: 'Crystal Harps · United States',
     heroTitle: 'Handcrafted 432Hz Crystal Harps',
     heroSub:
-      'Sacred Forest® creates premium crystal harps tuned to 432Hz – instruments for sound healers, therapists and seekers of deep inner peace in the United States and worldwide.',
-    regionSectionKicker: 'For US sound healers',
+      'Sacred Forest® creates premium crystal harps tuned to 432Hz – instruments for meditation, sound baths and mindful sound practice in the United States and worldwide.',
+    regionSectionKicker: 'For US sound practitioners',
     regionSectionHeading: 'Crystal harps for practitioners in the United States',
     regionSectionBody:
-      'This dedicated US microsite helps sound healers, yoga teachers and wellness studios in New York, Los Angeles, Austin and across the United States discover Sacred Forest® crystal harps tuned to 432Hz. All instruments are shipped safely from Europe to the US with insured delivery and careful packaging.',
+      'This dedicated US microsite helps sound practitioners, yoga teachers and wellness studios in New York, Los Angeles, Austin and across the United States discover Sacred Forest® crystal harps tuned to 432Hz. All instruments are shipped safely from Europe to the US with insured delivery and careful packaging.',
     faqShipQuestion: 'Do you ship to the United States?',
     faqShipAnswer:
       'Yes. Sacred Forest ships Crystal Harps safely to the United States and worldwide using insured, reinforced packaging.',
     faqTimeQuestion: 'How long does shipping to the US take?',
     faqTimeAnswer:
-      'Shipping time from Europe to the United States depends on the courier and destination state. During checkout on SacredForest.pl you can see available options and estimated delivery times.',
+      'Shipping time from Europe to the United States depends on the courier and destination state. During checkout on sacredforest.store you can see available options and estimated delivery times.',
   },
   eu: {
     lang: 'en',
     siteOrigin: 'https://crystalharp.eu',
+    utmSource: 'crystalharp.eu',
     ogLocale: 'en_GB',
     pageTitle: 'Crystal Harps Europe – Sacred Forest® 432Hz Quartz Harps',
     metaDescription:
-      'Crystal Harps Europe by Sacred Forest – handcrafted 432Hz quartz harps for sound healing, meditation and wellness across the EU. Discover Stardust C#, Mystic E, Celtic Moon D, Celestial Sun D and more.',
+      'Crystal Harps Europe by Sacred Forest – handcrafted 432Hz quartz harps for meditation, sound baths and wellness across the EU. Discover Stardust C#, Mystic E, Celtic Moon D, Sun D and more.',
     ogDescription:
-      'Handcrafted 432Hz crystal harps for sound healing and meditation across Europe.',
+      'Handcrafted 432Hz crystal harps for meditation, sound baths and mindful sound practice across Europe.',
     websiteDescription:
-      'Handcrafted 432Hz Crystal Harps by Sacred Forest for sound healers and wellness practitioners across Europe.',
+      'Handcrafted 432Hz Crystal Harps by Sacred Forest for sound practitioners and wellness studios across Europe.',
     heroKicker: 'Crystal Harps · Europe',
     heroTitle: 'Handcrafted 432Hz Crystal Harps',
     heroSub:
-      'Sacred Forest® creates premium crystal harps tuned to 432Hz – instruments for sound healers, therapists and seekers of deep inner peace across Europe.',
-    regionSectionKicker: 'For European sound healers',
+      'Sacred Forest® creates premium crystal harps tuned to 432Hz – instruments for meditation, sound baths and mindful sound practice across Europe.',
+    regionSectionKicker: 'For European sound practitioners',
     regionSectionHeading: 'Crystal harps for practitioners across Europe',
     regionSectionBody:
-      'This dedicated European microsite helps sound healers, yoga teachers and wellness studios in Berlin, Paris, Barcelona and across the EU discover Sacred Forest® crystal harps tuned to 432Hz. All instruments are shipped safely from Poland within the European Union.',
+      'This dedicated European microsite helps sound practitioners, yoga teachers and wellness studios in Berlin, Paris, Barcelona and across the EU discover Sacred Forest® crystal harps tuned to 432Hz. All instruments are shipped safely from Poland within the European Union.',
     faqShipQuestion: 'Do you ship across Europe?',
     faqShipAnswer:
       'Yes. Sacred Forest ships Crystal Harps safely across the European Union using insured, reinforced packaging.',
@@ -85,22 +88,23 @@ const CONFIG = {
   pl: {
     lang: 'pl-PL',
     siteOrigin: 'https://krysztalowaharfa.pl',
+    utmSource: 'krysztalowaharfa.pl',
     ogLocale: 'pl_PL',
     pageTitle: 'Harfy Kryształowe Polska – Sacred Forest® 432Hz',
     metaDescription:
       'Harpy kryształowe 432Hz Sacred Forest – ręcznie wykonywane instrumenty z kwarcu dla relaksu, medytacji i sesji dźwiękowych w Polsce.',
     ogDescription:
-      'Ręcznie wykonywane harfy kryształowe 432Hz dla terapeutów dźwiękiem i praktyków medytacji w Polsce.',
+      'Ręcznie wykonywane harfy kryształowe 432Hz dla praktyków pracy z dźwiękiem i medytacji w Polsce.',
     websiteDescription:
-      'Ręcznie wykonywane harfy kryształowe 432Hz Sacred Forest dla terapeutów dźwiękiem i studiów jogi w Polsce.',
+      'Ręcznie wykonywane harfy kryształowe 432Hz Sacred Forest dla praktyków pracy z dźwiękiem i studiów jogi w Polsce.',
     heroKicker: 'Harfy Kryształowe · Polska',
     heroTitle: 'Ręcznie wykonywane harfy kryształowe 432Hz',
     heroSub:
-      'Sacred Forest® tworzy premium harfy kryształowe strojone do 432 Hz – instrumenty dla terapeutów dźwiękiem, nauczycieli jogi i osób szukających głębokiego wyciszenia w Polsce.',
-    regionSectionKicker: 'Dla terapeutów dźwiękiem w Polsce',
+      'Sacred Forest® tworzy premium harfy kryształowe strojone do 432 Hz – instrumenty dla praktyków pracy z dźwiękiem, nauczycieli jogi i osób szukających głębokiego wyciszenia w Polsce.',
+    regionSectionKicker: 'Dla praktyków pracy z dźwiękiem w Polsce',
     regionSectionHeading: 'Harfy kryształowe dla praktyków w Polsce',
     regionSectionBody:
-      'Ta polska mikrostorna pomaga terapeutom dźwiękiem, nauczycielom jogi i studiom wellness w Warszawie, Krakowie, Wrocławiu i całej Polsce odkryć harfy kryształowe Sacred Forest® strojonone do 432 Hz. Instrumenty wysyłane są bezpiecznie z Polski, w wzmocnionych opakowaniach.',
+      'Ta polska mikrostrona pomaga praktykom pracy z dźwiękiem, nauczycielom jogi i studiom wellness w Warszawie, Krakowie, Wrocławiu i całej Polsce odkryć harfy kryształowe Sacred Forest® strojone do 432 Hz. Instrumenty wysyłane są bezpiecznie z Polski, w wzmocnionych opakowaniach.',
     faqShipQuestion: 'Czy wysyłacie harfy kryształowe do Polski?',
     faqShipAnswer:
       'Tak. Harfy kryształowe Sacred Forest wysyłane są z Polski, z pełnym ubezpieczeniem i wzmocnionym opakowaniem.',
@@ -139,6 +143,7 @@ function build() {
     '{{META_DESCRIPTION}}': cfg.metaDescription,
     '{{OG_DESCRIPTION}}': cfg.ogDescription,
     '{{WEBSITE_DESCRIPTION}}': cfg.websiteDescription,
+    '{{UTM_SOURCE}}': cfg.utmSource,
     '{{HERO_KICKER}}': cfg.heroKicker,
     '{{HERO_TITLE}}': cfg.heroTitle,
     '{{HERO_SUB}}': cfg.heroSub,
@@ -159,13 +164,13 @@ function build() {
   // Polish-specific text translations for krysztalowaharfa.pl
   if (REGION === 'pl') {
     const plPairs = [
-      ['Go to Sacred Forest Shop', 'Przejdź do sklepu SacredForest.pl'],
+      ['Go to Sacred Forest Shop', 'Przejdź do sklepu Sacred Forest'],
       ['Explore models', 'Zobacz modele'],
       ['About Sacred Forest', 'O marce Sacred Forest'],
       ['Crystal Harps born in the forest', 'Harfy kryształowe zrodzone w lesie'],
       [
-        'Every Sacred Forest® crystal harp is handcrafted in Poland with pure quartz glass, perfectly tuned to its healing 432Hz frequency.',
-        'Każda harfa kryształowa Sacred Forest® powstaje ręcznie w Polsce z wysokiej jakości szkła kwarcowego, precyzyjnie strojonego do częstotliwości 432 Hz.',
+        'Every Sacred Forest® crystal harp is handcrafted in Poland with pure quartz glass and precisely tuned to 432Hz.',
+        'Każda harfa kryształowa Sacred Forest® powstaje ręcznie w Polsce z wysokiej jakości szkła kwarcowego i jest precyzyjnie strojona do 432 Hz.',
       ],
       [
         'We design our instruments to feel gentle, luminous and strong – just like the forests and oceans that inspire us.',
@@ -179,9 +184,9 @@ function build() {
       ],
       [
         'All models are available worldwide from our main Sacred Forest store.',
-        'Wszystkie modele są dostępne w naszym głównym sklepie SacredForest.pl.',
+        'Wszystkie modele są dostępne w naszym głównym sklepie Sacred Forest.',
       ],
-      ['Sound Healing', 'Terapia dźwiękiem'],
+      ['Sound Practice', 'Praca z dźwiękiem'],
       ['Why 432Hz crystal harps?', 'Dlaczego harfy kryształowe 432 Hz?'],
       ['Gentle, clear sound', 'Delikatne, przejrzyste brzmienie'],
       [
@@ -193,10 +198,10 @@ function build() {
         '432Hz tuning is loved by many practitioners for its calming, heart-centred character.',
         'Strój 432 Hz jest ceniony przez wielu praktyków za swój uspokajający, „sercowy” charakter.',
       ],
-      ['Made for therapists', 'Stworzone dla terapeutów'],
+      ['Made for practitioners', 'Stworzone dla praktyków'],
       [
-        'Designed for sound healers, yoga teachers, energy workers and wellness studios that need reliable instruments.',
-        'Stworzone dla terapeutów dźwiękiem, nauczycieli jogi, pracowników energii i studiów wellness, które potrzebują niezawodnych instrumentów.',
+        'Designed for sound practitioners, yoga teachers, musicians and wellness studios that need reliable instruments.',
+        'Stworzone dla praktyków pracy z dźwiękiem, nauczycieli jogi, muzyków i studiów wellness, które potrzebują niezawodnych instrumentów.',
       ],
       ['FAQ', 'FAQ'],
       ['Crystal Harp – Questions & answers', 'Harfy kryształowe – pytania i odpowiedzi'],
@@ -212,13 +217,13 @@ function build() {
       ],
       ['Do I need musical experience?', 'Czy potrzebuję doświadczenia muzycznego?'],
       [
-        'No. Many of our clients are therapists and healers without classical music training. Simple intuitive playing already creates a beautiful sound field.',
-        'Nie. Wielu naszych klientów to terapeuci i uzdrawiacze bez klasycznego wykształcenia muzycznego. Prosta, intuicyjna gra już tworzy piękne pole dźwiękowe.',
+        'No. Many of our clients are yoga teachers, musicians and sound practitioners without classical music training. Simple intuitive playing already creates a beautiful sound field.',
+        'Nie. Wielu naszych klientów to nauczyciele jogi, muzycy i praktycy pracy z dźwiękiem bez klasycznego wykształcenia muzycznego. Prosta, intuicyjna gra już tworzy piękne pole dźwiękowe.',
       ],
       ['Where can I order?', 'Gdzie mogę zamówić?'],
       [
-        'All orders are processed through our main shop on SacredForest.pl – this is where you can see prices, tuning options and availability.',
-        'Wszystkie zamówienia realizujemy przez nasz główny sklep SacredForest.pl – tam znajdziesz aktualne ceny, dostępne strojenia i informacje o dostępności.',
+        'All orders are processed through our main shop at sacredforest.store – this is where you can see prices, tuning options and availability.',
+        'Wszystkie zamówienia realizujemy przez nasz główny sklep sacredforest.store – tam znajdziesz aktualne ceny, dostępne strojenia i informacje o dostępności.',
       ],
       ['How long does shipping to the UK take?', 'Ile trwa wysyłka na terenie Polski?'],
       [
@@ -230,8 +235,8 @@ function build() {
         'Czy cło lub dodatkowe opłaty są wliczone w cenę?',
       ],
       [
-        'Depending on current UK regulations, local customs duties or VAT may apply. During checkout on SacredForest.pl you will see available shipping options, and the courier will inform you if any additional fees are due before delivery.',
-        'W zależności od aktualnych przepisów mogą pojawić się lokalne opłaty lub podatki. Podczas składania zamówienia na SacredForest.pl zobaczysz dostępne opcje wysyłki, a kurier poinformuje Cię, jeśli przed doręczeniem pojawią się dodatkowe opłaty.',
+        'Depending on current UK regulations, local customs duties or VAT may apply. During checkout on sacredforest.store you will see available shipping options, and the courier will inform you if any additional fees are due before delivery.',
+        'W zależności od aktualnych przepisów mogą pojawić się lokalne opłaty lub podatki. Podczas składania zamówienia na sacredforest.store zobaczysz dostępne opcje wysyłki, a kurier poinformuje Cię, jeśli przed doręczeniem pojawią się dodatkowe opłaty.',
       ],
       [
         'Can I use a Crystal Harp in group sessions?',
@@ -258,7 +263,7 @@ function build() {
 
     // Localise button labels in product cards
     html = html.split('View ').join('Zobacz ');
-    html = html.split(' on SacredForest.pl →').join(' na SacredForest.pl →');
+    html = html.split(' at Sacred Forest →').join(' w Sacred Forest →');
   }
 
   fs.writeFileSync(outPath, html, 'utf8');
