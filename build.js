@@ -129,7 +129,7 @@ const hrefLangLinks = [
 ].join('\n');
 
 function build() {
-  const templatePath = path.join(__dirname, 'index.template.html');
+  const templatePath = path.join(__dirname, REGION === 'pl' ? 'index.pl.template.html' : 'index.template.html');
   const outPath = path.join(__dirname, 'index.html');
   const sitemapPath = path.join(__dirname, 'sitemap.xml');
 
@@ -269,7 +269,7 @@ function build() {
   fs.writeFileSync(outPath, html, 'utf8');
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="${REGION === 'pl' ? 'http' : 'https'}://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>${cfg.siteOrigin.replace(/\/+$/, '')}/</loc>
   </url>
