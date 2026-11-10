@@ -12,7 +12,7 @@
     const url = new URL(link.href);
     if (url.hostname !== 'sacredforest.store' || url.pathname.includes('/cdn/')) return;
     const model = link.closest('.card')?.querySelector('.card-title')?.textContent;
-    url.searchParams.set('utm_content', model ? model.toLowerCase().replace(/[^a-z0-9]+/g, '-') : 'footer');
+    url.searchParams.set('utm_content', model ? model.toLowerCase().replace(/#/g, '-sharp').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '') : 'footer');
     link.href = url.href;
     link.addEventListener('click', () => emit('shop_click', { model: model || 'store', destination: url.pathname }));
   });
